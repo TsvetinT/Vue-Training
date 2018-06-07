@@ -9,7 +9,7 @@
           <!--  <v-btn flat to="/">Test</v-btn> -->
         </v-toolbar-items>
         <v-spacer></v-spacer>
-        <v-text-field prepend-icon="search" v-model="searchText" solo append-icon="cancel"></v-text-field>
+        <v-text-field color="orange" prepend-icon="search" v-model="searchText" solo append-icon="cancel"></v-text-field>
         <v-btn icon>
           <v-icon>favorite</v-icon>
         </v-btn>
@@ -38,12 +38,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+/*  background: linear-gradient(#e66465, #9198e5); */ 
 }
 </style>
